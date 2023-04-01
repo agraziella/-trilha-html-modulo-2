@@ -1,0 +1,353 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(to right top, #ffffff, #f6fcff, #e2fcff, #c8feff, #b1ffff, #a4fcfa, #97f8f4, #89f5ee, #7aecf9, #77e1ff, #82d4ff, #94c7ff);
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.header {
+    
+    text-align: center;
+    padding: 20px;
+    display: inline-flex;
+    align-items: start;
+}
+
+.menu{
+    width: 15%;
+    flex-flow: column;
+    width: 85%;
+    padding: 10px;
+    
+}
+
+nav a {
+    color: #1db7ff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+  
+
+.content {
+    min-height: 300px;
+    padding: 20px;
+}
+
+p {
+    margin: 20px auto;
+    text-align: justify;
+    max-width: 800px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+
+.footer {
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* index*/
+
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    color:  hsl(219, 100%, 63%);
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color:  hsl(219, 100%, 63%);
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid  hsl(219, 100%, 63%);
+    margin: 30px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .frame {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+
+/* about */
+.content-about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+ p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .who-we-are h2 {
+    color:  hsl(219, 100%, 63%);
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .who-we-are p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .doctor img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+
+/* schedule */
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid rgb(17, 140, 255);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+th {
+    background-color: #1db7ff;
+}
+
+caption {
+    color:  hsl(219, 100%, 63%);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/*contact*/ 
+
+  /* estilo para o título e subtítulo do formulário */
+  #contact-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #contact-subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* estilo para os campos do formulário */
+  .field {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  .info p {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .data {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 700px;
+    margin-bottom: 20px;
+  }
+  
+  .subject {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 750px;
+  }
+  
+  .opcao {
+    color: #ccc;
+  }
+  
+  .textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 750px;
+
+  }
+  
+  /* botão Enviar */
+  .button{
+    font-size: 1.5em;
+    background: hsl(219, 100%, 63%);
+    border: 0;
+    margin-bottom: 5em;
+    color: #ffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);  
+    margin-left: 50%;  
+}
+
+.button:hover{
+    background: #ccbbff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+  
+  /* grupo de campos */
+  .group {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .legend {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /*menu*/
+
+  nav {
+    padding: 10px;
+  }
+  
+  .sidebar {
+    border: 2px solid rgb(17, 140, 255);
+    border-radius: 5px;
+    padding: 100px;
+    margin-top: 180px;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    color:  hsl(219, 100%, 63%);
+  }
+  
+  ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /*footer*/
+
+  
+  .footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  
